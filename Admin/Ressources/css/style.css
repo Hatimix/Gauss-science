@@ -1,0 +1,34 @@
+li,ol{
+    list-style-type: none;
+}
+div.wrapper{
+    width: 50%;
+    margin: 100px auto;
+}
+img.fr{
+    width: 100px;
+}
+img.en{
+    width: 100px;
+}
+.rows{
+    display: block;
+    margin-top: 15px;
+    font-size: 30px;
+    color: #555;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+}
+.rows:hover{
+    text-decoration: none;
+    color: #333;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.3s all;
+}
+.fr,
+.en {
+    margin-right: 20px;
+}
