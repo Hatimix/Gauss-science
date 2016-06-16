@@ -25,7 +25,22 @@ class Database
     public function query($query)
     {
         $req = $this->getConnexion()->query($query);
-        $res = $req->fetch(PDO::FETCH_ASSOC);
+        $res = $req->fetchAll(PDO::FETCH_ASSOC);
         var_dump($res);
+    }
+
+    public function prepare($statement,$userData)
+    {
+        $pre= $this->getConnexion()->prepare($statement);
+        $pre->execute($userData);
+        $res = $pre->fetchAll(PDO::FETCH_ASSOC);
+        $count = $pre->rowCount();
+        var_dump($count);
+        var_dump($res);
+        if ($count > 0){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

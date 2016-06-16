@@ -19,7 +19,15 @@ function lang($sentence){
         'Password'		=>		'Mot de passe',
         'placeholder_username'  =>      'Entrez votre nom d\'utilisateur',
         'placeholder_password'  =>      'Entrez votre mot de passe',
-        'connexion'             =>      'Se connecter'
+        'connexion'             =>      'Se connecter',
+        'invalidUser'           =>      "Votre nom d'utilisateur est invalide ou vide, verifiez vos entrées s'il vous plaît",
+        // Navbar
+        'logoAdmin'             =>      'Espace d\'administration',
+        'item1'                 =>      'Accueil',
+        'item2'                 =>      'Articles',
+        'item3'                 =>      'Commentaires',
+        'item4'                 =>      'Utilisateurs',
+        'logout'                =>      'Déconnexion'
 
     );
     return $lang[$sentence];

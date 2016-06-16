@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - Gauss@localhost" uuid="0d1b31a7-ba26-4279-ae8a-2628ea78845a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>gauss.*</schema-pattern>
+      <default-schemas>gauss.*</default-schemas>
+    </data-source>
+  </component>
+</project>

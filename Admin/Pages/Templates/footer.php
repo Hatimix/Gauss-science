@@ -1,3 +1,8 @@
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">Copyright &copy; <?= date('Y'); ?></p>
+    </div>
+</footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/Gauss-science/Admin/Ressources/js/jquery.min.js"></script>
