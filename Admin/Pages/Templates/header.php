@@ -8,9 +8,9 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap & Css & Font Awesome -->
-    <link href="../../Ressources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../Ressources/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../../Ressources/css/style.css" rel="stylesheet">
+    <link href="/Gauss-science/Admin/Ressources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Gauss-science/Admin/Ressources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Gauss-science/Admin/Ressources/css/style.css" rel="stylesheet">
 
 </head>
 <body>

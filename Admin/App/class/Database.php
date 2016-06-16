@@ -11,7 +11,7 @@ class Database
     );
     private $db;
 
-    public function __construct()
+    private function getConnexion()
     {
         $dsn = $this->db_dsn;
         $user = $this->db_user;
@@ -20,5 +20,12 @@ class Database
             $this->db = new PDO($dsn,$user,$pass,$this->options);
         }
         return $this->db;
+    }
+
+    public function query($query)
+    {
+        $req = $this->getConnexion()->query($query);
+        $res = $req->fetch(PDO::FETCH_ASSOC);
+        var_dump($res);
     }
 }
