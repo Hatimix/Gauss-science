@@ -123,3 +123,65 @@ nav.navbar{
     border-radius:0;
 }
 /*  END NAVBAR */
+/*  START ADD POST  */
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #222;
+    border-color: #333;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #222;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #222;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #222;
+}
+form div.input-group{
+    margin-bottom: 5px;
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 1300px;
+        margin: 30px auto;
+    }
+}
+#mceu_13{
+    width: 1260px;
+    margin: 30px auto;
+}
+@media screen and (max-width: 450px){
+    #mceu_13{
+        width: auto;
+    }
+}
+@media screen and (max-width: 780px) {
+    #mceu_13{
+        width: auto;
+    }
+}
+@media screen and (max-width: 1300px){
+    #mceu_13{
+        width: auto;
+    }
+}
+/*  END ADD POST  */

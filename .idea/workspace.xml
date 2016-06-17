@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b8b18a-c4e5-4ca6-be18-a888254746ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/App/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/App/Logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Pages/404.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Pages/Articles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Pages/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/panda.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/App/fetchArticles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/Ressources/js/plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/App/class/Database.php" afterPath="$PROJECT_DIR$/Admin/App/class/Database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/App/class/Language.php" afterPath="$PROJECT_DIR$/Admin/App/class/Language.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/App/en.php" afterPath="$PROJECT_DIR$/Admin/App/en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/App/enCookie.php" afterPath="$PROJECT_DIR$/Admin/App/enCookie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/App/fr.php" afterPath="$PROJECT_DIR$/Admin/App/fr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Home.php" afterPath="$PROJECT_DIR$/Admin/Pages/Home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Templates/Default.php" afterPath="$PROJECT_DIR$/Admin/Pages/Templates/Default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Articles.php" afterPath="$PROJECT_DIR$/Admin/Pages/Articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php" afterPath="$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Templates/footer.php" afterPath="$PROJECT_DIR$/Admin/Pages/Templates/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/Templates/header.php" afterPath="$PROJECT_DIR$/Admin/Pages/Templates/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Ressources/css/style.css" afterPath="$PROJECT_DIR$/Admin/Ressources/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/index.php" afterPath="$PROJECT_DIR$/Admin/index.php" />
     </list>
     <ignored path="Gauss-science.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
@@ -58,36 +51,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Navbar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php">
+      <file leaf-file-name="Articles.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin/Pages/Articles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="25" column="191" selection-start-line="25" selection-start-column="191" selection-end-line="25" selection-end-column="191" />
+            <state relative-caret-position="527">
+              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Pages/Login.php">
+      <file leaf-file-name="fetchArticles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/App/fetchArticles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <marker date="1466102807833" expanded="true" signature="608:633" placeholder="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/App/Login.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <marker date="1466113436815" expanded="true" signature="780:840" placeholder="SELECT admin... admin" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/Ressources/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fr.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/App/fr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="39" column="49" selection-start-line="34" selection-start-column="48" selection-end-line="39" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/App/en.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,27 +115,36 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Admin/Pages/Templates/header.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/Templates/Login.php" />
         <option value="$PROJECT_DIR$/Admin/App/enCookie.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/404.php" />
         <option value="$PROJECT_DIR$/Admin/App/class/Language.php" />
-        <option value="$PROJECT_DIR$/Admin/Pages/Templates/footer.php" />
         <option value="$PROJECT_DIR$/Admin/App/class/Database.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/Login.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/Templates/Default.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/Home.php" />
-        <option value="$PROJECT_DIR$/Admin/Ressources/css/style.css" />
         <option value="$PROJECT_DIR$/Admin/App/Logout.php" />
+        <option value="$PROJECT_DIR$/Admin/App/Login.php" />
+        <option value="$PROJECT_DIR$/Admin/index.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/Templates/footer.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/Templates/header.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/Templates/Tinymce.php" />
+        <option value="$PROJECT_DIR$/Admin/Ressources/css/style.css" />
+        <option value="$PROJECT_DIR$/Admin/Ressources/js/plugins.js" />
         <option value="$PROJECT_DIR$/Admin/App/fr.php" />
         <option value="$PROJECT_DIR$/Admin/App/en.php" />
-        <option value="$PROJECT_DIR$/Admin/App/Login.php" />
-        <option value="$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php" />
-        <option value="$PROJECT_DIR$/Admin/index.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/Articles.php" />
+        <option value="$PROJECT_DIR$/Admin/App/fetchArticles.php" />
       </list>
     </option>
   </component>
@@ -250,28 +278,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gauss-science" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gauss-science" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -284,6 +290,22 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -336,12 +358,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466046530471</updated>
       <workItem from="1466046533027" duration="15701000" />
-      <workItem from="1466102901934" duration="5661000" />
+      <workItem from="1466102901934" duration="13486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21362000" />
+    <option name="totallyTimeSpent" value="29187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -351,7 +373,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -378,7 +400,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -418,24 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/selectLanguage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/Articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -450,13 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -488,30 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Ressources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/App/fr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/App/en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -548,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <marker date="1466102807833" expanded="true" signature="608:633" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/App/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -568,10 +537,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1466102807833" expanded="true" signature="608:633" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/Navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="25" column="191" selection-start-line="25" selection-start-column="191" selection-end-line="25" selection-end-column="191" />
+        <state relative-caret-position="261">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -580,6 +559,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Ressources/js/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1624">
+          <caret line="1" column="164" selection-start-line="1" selection-start-column="164" selection-end-line="1" selection-end-column="164" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Ressources/js/license.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Ressources/js/jquery.tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/Tinymce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Ressources/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Ressources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/App/fr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="39" column="49" selection-start-line="34" selection-start-column="48" selection-end-line="39" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/App/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/Templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/App/fetchArticles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>

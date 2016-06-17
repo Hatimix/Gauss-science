@@ -11,6 +11,11 @@
     <link href="/Gauss-science/Admin/Ressources/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Gauss-science/Admin/Ressources/css/font-awesome.min.css" rel="stylesheet">
     <link href="/Gauss-science/Admin/Ressources/css/style.css" rel="stylesheet">
-
+    <script src="/Gauss-science/Admin/Ressources/js/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+    </script>
 </head>
 <body>
