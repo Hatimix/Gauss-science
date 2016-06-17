@@ -27,7 +27,18 @@ function lang($sentence){
         'item2'                 =>      'Articles',
         'item3'                 =>      'Commentaires',
         'item4'                 =>      'Utilisateurs',
-        'logout'                =>      'Déconnexion'
+        'logout'                =>      'Déconnexion',
+        // Add post
+        'titlePost'             =>      'Titre de l\'article',
+        'contentPost'           =>      "Contenu de l'article",
+        'send'                  =>      'Créer',
+        'close'                 =>      'Fermer',
+        // Fetch posts
+        'excerpt'               =>      'Extrait',
+        'viewsCount'            =>      'Nombre de vue',
+        'status'                =>      'Etat',
+        'Action'                =>      'Actions'
+
 
     );
     return $lang[$sentence];

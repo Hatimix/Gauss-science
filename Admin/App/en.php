@@ -6,13 +6,13 @@ function lang($sentence){
         'HomePage'      =>      'Home Page',
         'Options'       =>      'Settings',
         'invalidUser'   =>      'Your username is not valid or empty please verify your entries !',
-        'ErrorLogin1'   =>      'Username or password invalid, please verify your informations and ty again !',
-        'SuccessLogin'  =>      'You\'re conneted :)',
+        'ErrorLogin1'   =>      'Username or password invalid, please verify your information and ty again !',
+        'SuccessLogin'  =>      'You\'re connected :)',
         'mainPage'      =>      'Home',
         'addArticle'    =>      'Add a new article',
         'deleteArticle' =>      'Delete an article',
         'categories'    =>      'Categories',
-        'editProfil'    =>      'Edit your profile',
+        'editProfile'    =>      'Edit your profile',
         'changePass'    =>      'Change your password',
         // Page Login
         'Remember'		=>		'Keep my session On',
@@ -21,13 +21,23 @@ function lang($sentence){
         'placeholder_username'  =>      'Enter your username',
         'placeholder_password'  =>      'Enter your password',
         'connexion'             =>      'Sign in',
-        // Navbar
+        // Navigation bar
         'logoAdmin'             =>      'Admin Area',
         'item1'                 =>      'Home',
         'item2'                 =>      'Articles',
         'item3'                 =>      'Comments',
         'item4'                 =>      'Users',
-        'logout'                =>      'Log out'
+        'logout'                =>      'Log out',
+        // Add post
+        'titlePost'             =>      'Title of this article',
+        'contentPost'           =>      'Content of this article',
+        'send'                  =>      'Create',
+        'close'                 =>      'Close',
+        // Fetch posts
+        'excerpt'               =>      'Excerpt',
+        'viewsCount'            =>      'Views Number',
+        'status'                =>      'Status',
+        'Action'                =>      'Actions'
 
     );
     return $lang[$sentence];
