@@ -22,3 +22,9 @@ $(document).ready(function () {
         ]
     });
 });
+$(document).ready(function () {
+    $('.nav-tabs').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
+});

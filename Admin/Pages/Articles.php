@@ -6,57 +6,28 @@
     <i class="fa fa-plus-circle"></i>&nbsp;&nbsp;<?= lang('addArticle'); ?>
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel"><?= lang('addArticle') ?></h4>
-            </div>
-            <div class="modal-body">
-                <!--  START FORM ADD POST -->
-                <form action="#" method="GET">
-                    <div class="input-group">
-                        <label class="input-group-addon" id="basic-addon1"><?= lang('titlePost') ?></label>
-                        <input type="text" class="form-control" aria-describedby="basic-addon1">
-                    </div>
-                    <div class="input-group">
-                        <label class="input-group-addon" id="basic-addon1"><?= lang('categories') ?></label>
-                        <input type="text" class="form-control" aria-describedby="basic-addon1">
-                    </div>
-                    <div class="input-group">
-                        <!--  START TINYMCE FORM  -->
-                            <textarea id="mytextarea">Hello, World!</textarea>
-                        <!--  END TINYMCE FORM  -->
-                    </div>
-                </form>
-                <!--  START FORM ADD POST -->
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal"><?= lang('close') ?></button>
-                <button type="button" class="btn btn-primary"><?= lang('send') ?></button>
-            </div>
-            <!-- END ADD POST -->
-            <!-- START FETCH POSTS  -->
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th><?= lang('titlePost') ?></th>
-                            <th><?= lang('excerpt') ?></th>
-                            <th><?= lang('viewsCount') ?></th>
-                            <th><?= lang('status') ?></th>
-                            <th><?= lang('action') ?></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php header('location : App/fetchArticles.php') ?>
-                    </tbody>
-                </table>
-            </div>
-            <!-- END FETCH POSTS  -->
-        </div>
-    </div>
+<!-- START INCLUDE TEMPLATE ADD ARTICLE -->
+    <?php include 'Pages/Templates/createPost.php'; ?>
+<!-- END TEMPLATE ADD ARTICLE -->
+
+<!-- START FETCH POSTS  -->
+<br>
+<h3 class="page-header">Articles list</h3>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th><?= lang('titlePost') ?></th>
+            <th><?= lang('excerpt') ?></th>
+            <th><?= lang('viewsCount') ?></th>
+            <th><?= lang('status') ?></th>
+            <th><?= lang('Action') ?></th>
+        </tr>
+        </thead>
+        <tbody>
+            <?php include('App/fetchArticles.php') ?>
+        </tbody>
+    </table>
 </div>
+<!-- END FETCH POSTS  -->

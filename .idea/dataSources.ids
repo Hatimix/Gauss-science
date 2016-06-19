@@ -9,38 +9,88 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="gauss"/>
       <table id="2" parent="1" name="admin"/>
-      <column id="3" parent="2" name="admin_id">
+      <table id="3" parent="1" name="article"/>
+      <column id="4" parent="2" name="admin_id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="4" parent="2" name="admin_login">
+      <column id="5" parent="2" name="admin_name">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="5" parent="2" name="admin_pass">
+      <column id="6" parent="2" name="admin_login">
         <mandatory>1</mandatory>
         <data-type>varchar(100)</data-type>
       </column>
-      <column id="6" parent="2" name="admin_email">
+      <column id="7" parent="2" name="admin_pass">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="8" parent="2" name="admin_email">
         <mandatory>1</mandatory>
         <data-type>varchar(150)</data-type>
       </column>
-      <column id="7" parent="2" name="admin_post_count">
+      <column id="9" parent="2" name="admin_post_count">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <index id="8" parent="2" name="onlyOne">
+      <index id="10" parent="2" name="onlyOne">
         <columns>admin_login</columns>
         <desc-columns></desc-columns>
         <unique>1</unique>
       </index>
-      <key id="9" parent="2" name="onlyOne">
+      <key id="11" parent="2" name="onlyOne">
         <columns>admin_login</columns>
         <underlying-index>onlyOne</underlying-index>
       </key>
-      <key id="10" parent="2" name="PRIMARY">
+      <key id="12" parent="2" name="PRIMARY">
         <columns>admin_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="13" parent="3" name="artcle_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="14" parent="3" name="artcle_title_en">
+        <mandatory>1</mandatory>
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="15" parent="3" name="artcle_title_fr">
+        <mandatory>1</mandatory>
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="16" parent="3" name="article_content_en">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="17" parent="3" name="article_content_fr">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="18" parent="3" name="artcle_section">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="19" parent="3" name="artcle_status">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="20" parent="3" name="artcle_views_count">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="21" parent="3" name="artcle_translate">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="22" parent="3" name="article_author">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="23" parent="3" name="PRIMARY">
+        <columns>artcle_id</columns>
         <primary>1</primary>
       </key>
     </database-model>

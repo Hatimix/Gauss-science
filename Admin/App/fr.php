@@ -33,11 +33,14 @@ function lang($sentence){
         'contentPost'           =>      "Contenu de l'article",
         'send'                  =>      'Créer',
         'close'                 =>      'Fermer',
+        'langPost'              =>      'Selectionner la langue de l\'article',
         // Fetch posts
         'excerpt'               =>      'Extrait',
         'viewsCount'            =>      'Nombre de vue',
         'status'                =>      'Etat',
-        'Action'                =>      'Actions'
+        'Action'                =>      'Actions',
+        'edit'                  =>      'Modifier',
+        'remove'                =>      'Supprimer'
 
 
     );

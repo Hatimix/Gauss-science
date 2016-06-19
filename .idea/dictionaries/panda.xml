@@ -2,7 +2,9 @@
   <dictionary name="panda">
     <words>
       <w>dropdown</w>
+      <w>français</w>
       <w>mceu</w>
+      <w>tinymce</w>
     </words>
   </dictionary>
 </component>
